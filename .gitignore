@@ -127,7 +127,9 @@ dist
 .pnp.*
 
 
-build
+build/
 package-lock.json
 yarn-error.log
 yarn.lock
+
+.fba
