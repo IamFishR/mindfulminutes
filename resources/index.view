@@ -1,0 +1,39 @@
+<svg>
+  <rect id="background" />
+  <text id="day_of_week" x="50%-3" y="33%-10" font-size="22" font-family="System-Regular"
+    text-anchor="middle" text-length="3">Mon</text>
+
+  <text id="hour" x="27%+5" y="50%+27"
+    fill="white" font-size="112" font-family="System-Light"
+    text-anchor="middle" text-length="2">21</text>
+  <circle id="hour-one" cx="49%-1" cy="39%+10" r="2%" fill="sandybrown" />
+  <circle id="hour-two" cx="49%-1" cy="45%+10" r="2%" fill="sandybrown" />
+  <circle id="hour-three" cx="49%-1" cy="51%+10" r="2%" />
+  <text id="minute" x="68%+5" y="50%+27"
+    fill="white" font-size="112" font-weight="bold" font-family="System-Light"
+    text-anchor="middle" text-length="2">00</text>
+  <text id="second" x="89%+5" y="50%+27"
+    fill="white" font-size="20" font-family="System-Light"
+    text-anchor="middle" text-length="2">10</text>
+  <text id="am_pm" x="89%+7" y="50%+5"
+    fill="white" font-size="18" font-family="System-Light"
+    text-anchor="middle" text-length="2">AM</text>
+
+  <text id="date_month" x="50%" y="68%"
+    fill="white" font-size="22" font-family="System-Regular"
+    text-anchor="middle" text-length="20">24.Sep</text>
+
+  <image x="13%" y="86%" width="24" height="24" href="stat_hr_solid_24px.png" fill="sandybrown" />
+  <text id="heart_rate" x="20%+5" y="92%-2" text-length="3" font-size="22"
+    font-family="System-Regular"
+    fill="white">76</text>
+
+  <image x="35%+6" y="86%" width="24" height="24" href="stat_steps_solid_24px.png" fill="sandybrown" />
+  <text id="steps" x="45%" y="92%-2" text-length="6" font-size="22" font-family="System-Regular"
+    fill="white">12345</text>
+
+  <image id="night" x="224" y="86%" width="24" height="24" href="moon.png" />
+  <image id="daytime" x="224" y="86%" width="24" height="24" href="sund.png" />
+  <text id="weather" x="253" y="92%-2" text-length="5" font-size="22" font-family="System-Regular"
+    fill="white">24°C</text>
+</svg>
